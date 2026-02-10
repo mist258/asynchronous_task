@@ -67,7 +67,6 @@ if __name__ == "__main__":
 
     print("=" * 50)
     print("RESULT:")
-    #print("=" * 50)
     print(f"Asynchronous:    {time_async:.2f} seconds")
     print(f"Synchronous:     {time_sync:.2f} seconds")
     print(f"Multiprocessing: {time_multi:.2f} seconds")
